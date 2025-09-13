@@ -1,0 +1,19 @@
+/* Additional custom styling */
+body::-webkit-scrollbar {
+  width: 8px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #10B981;
+  border-radius: 4px;
+}
+body::-webkit-scrollbar-track {
+  background: #1F2937;
+}
+
+/* Hover animations for map markers */
+.leaflet-marker-icon {
+  transition: transform 0.2s ease;
+}
+.leaflet-marker-icon:hover {
+  transform: scale(1.2);
+}
